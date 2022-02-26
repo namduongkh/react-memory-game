@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import GameMatch from './components/GameMatch';
 import { useState } from 'react';

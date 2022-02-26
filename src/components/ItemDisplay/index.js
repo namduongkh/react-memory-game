@@ -15,7 +15,7 @@ const ItemDisplay = (props) => {
   const displaySrc = allSrc[props.value];
 
   return <>
-    <img src={displaySrc} />
+    <img src={displaySrc} alt="" />
   </>
 }
 

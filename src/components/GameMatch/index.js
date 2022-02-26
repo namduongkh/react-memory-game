@@ -25,7 +25,7 @@ const GameMatch = (props) => {
   }
 
   const onItemClick = (item) => {
-    if (preventClick || !item || item.found || pickedItems.some(i => i.index == item.index)) return;
+    if (preventClick || !item || item.found || pickedItems.some(i => i.index === item.index)) return;
 
     const newPickedItems = pickedItems.concat(item)
     setPickedItems(newPickedItems);
@@ -67,7 +67,7 @@ const GameMatch = (props) => {
     if (!items.length) return 'stoped';
     if (isWin) return 'ended';
     return 'running';
-  }, [items]);
+  }, [items, isWin]);
 
   const replay = () => {
     props.onNewGame();
