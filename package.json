@@ -37,5 +37,6 @@
   },
   "devDependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "homepage": "https://imphongnguyen.com/react-memory-game/"
 }
